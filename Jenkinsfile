@@ -9,7 +9,7 @@ pipeline {
 	  stage('Checkout') {
       steps {
         git branch: 'main', 
-        url: 'https://github.com/Bart-90/CI-CD-test.git'   
+        url: 'https://github.com/Bart-90/CI-CD-home.git'   
       }
     }
     stage('Build') {
